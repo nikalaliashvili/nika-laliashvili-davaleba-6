@@ -1,0 +1,178 @@
+.background {
+    background-image: url(../Images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.birds {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    transform: rotate(-50deg);
+    width: 200px;
+    height: 200px;
+    animation: birds 20s infinite linear;
+    z-index: 5;
+}
+
+@keyframes birds {
+    0% {right: -100px;}
+    100% {right: 110%;}
+}
+ .sun {
+ 	position: absolute;
+	top: 100px;
+	left: 600px;
+	width: 150px;
+	height: 150px;
+	animation: sun 30s infinite;
+	z-index: 2;
+	animation-direction: alternate;
+ }
+
+ @keyframes sun {
+
+ 	0% { top: 1px;}
+ 	100% {top: 100px;}
+}
+
+.island{
+	position: absolute;
+	bottom: -50px;
+	right: -150px;
+	width: 600px;
+	height: 700px;
+	z-index: 10;
+}
+.bob {
+	position: absolute;
+	bottom: 30px;
+	right: 5px;
+	height: 150px;
+	width: 150px;
+	z-index: 15;
+}
+.fire {
+	position: absolute;
+	bottom: 20px;
+	right: 120px;
+	height: 100px;
+	width: 100px;
+	z-index: 15;
+}
+.ship {
+    position: absolute;
+    top: 210px;
+    left: 50p;
+    transform: rotate(-10deg);
+    width: 100px;
+    height: 100px;
+    animation: ship 30s infinite linear;
+    z-index: 1;
+}
+
+@keyframes ship {
+   	0% {left: -100px;}
+    100% {left: 110%;}
+}
+.island2{
+	position: absolute;
+	top: 130px;
+	left: 20px;
+	height: 250px;
+	width: 250px;
+	z-index: 1;
+}
+.rick{
+	position: absolute;
+	top: 275px;
+	left: 75px;
+	height: 75px;
+	width: 75px;
+	z-index: 1;
+}
+.morty{
+	position: absolute;
+	top: 310px;
+	left: 125px;
+	height: 40px;
+	width: 20px;
+	z-index: 1;
+}
+.car{
+	position: absolute;
+	top: 300px;
+	left: 140px;
+	height: 45px;
+	width: 75px;
+	z-index: 2;
+}
+.jerry{
+	position: absolute;
+	top: 300px;
+	left: 190px;
+	height: 20px;
+	width: 20px;
+	z-index: 1;	
+	transform: rotate(20deg);
+}
+
+.sup {
+    position: absolute;
+    top: 100px;
+    left: 50p;
+    transform: rotate(20deg);
+    width: 75px;
+    height: 75px;
+    animation: sup 15s infinite linear;
+    z-index: 4;
+}
+
+@keyframes sup {
+   	0% {left: -100px;}
+    100% {left: 110%;}
+}
+.grn {
+ 	position: absolute;
+	top: 100px;
+	left: 300px;
+	width: 50px;
+	height: 75px;
+	animation: grn 5s infinite;
+	z-index: 2;
+	animation-direction: alternate;
+ }
+
+ @keyframes grn {
+
+ 	0% { top: 15px;}
+ 	100% {top: 150px;}
+}
+.ott{
+	position: absolute;
+	bottom: 50px;
+	left: 20px;
+	height: 115px;
+	width: 130px;
+	z-index: 1;
+	animation: ott 30s infinite;
+
+}
+@keyframes ott {
+  0%   { left:-100px; top:400px;}
+  25%  { left:400px; top:400px; transform: rotate(35deg);}
+  50%  { left:400px; top:700px;}
+  75%  { left:-100px; top:700px;}
+  100% { left:-100px; top:400px;}
+}
+.lgt{
+	position: absolute;
+	top: 125px;
+	right: 350px;
+	height: 250px;
+	width: 200px;
+	z-index: 1;
+}
